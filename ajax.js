@@ -11,7 +11,7 @@
  * @author　JK、Akira,绝大部分代码来自BBLib/util/BBAjax(1.0版),其作者为：Miller。致谢
  * @version 0.1
  * @create-date : 2009-02-20
- * @last-modified : 2009-02-20
+ * @last-modified : 2011-10-10
  */
 
 
@@ -186,9 +186,9 @@
          * @param {Function} callback 请求成功后的回调
 		 * @param {Json} options Ajax选项
          */
-        getJSONP: function( url, data, callback, options){
+		getJSONP: function( url, data, callback, options){
 			return Ajax.request('get', url, [{'Content-type': 'application/x-javascript'},data], callback, options);
-        }		
+		}		
 	});
 
 	mix(Ajax.prototype, {
