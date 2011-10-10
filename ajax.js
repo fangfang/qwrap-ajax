@@ -178,14 +178,14 @@
 			return Ajax.request('post', url, data, callback, options);
 		},
 		/**
-         * 静态JSONP方法
+		 * 静态JSONP方法
 		 * @method
 		 * @static
-         * @param {String} url 请求的地址
-         * @param {Object|String} data 发送的数据
-         * @param {Function} callback 请求成功后的回调
+		 * @param {String} url 请求的地址
+		 * @param {Object|String} data 发送的数据
+		 * @param {Function} callback 请求成功后的回调
 		 * @param {Json} options Ajax选项
-         */
+		 */
 		getJSONP: function( url, data, callback, options){
 			return Ajax.request('get', url, [{'Content-type': 'application/x-javascript'},data], callback, options);
 		}		
