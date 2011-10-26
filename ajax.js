@@ -44,6 +44,8 @@
 		*| onerror:			|	请求失败监控													|
 		*| oncancel:		|	请求取消监控													|
 		*| oncomplete:		|	请求结束监控 (success与error都算complete)						|
+		*| charset:			|	默认编码					|	UTF-8							|
+		*| jsonp:			|	jsonp的参数名				|	cb								|
 		*----------------------------------------------------------------------------------------
 	* @return {Ajax} 
 	*/
