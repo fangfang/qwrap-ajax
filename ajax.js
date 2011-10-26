@@ -38,14 +38,14 @@
 		*| user:			|	用户名						|	空字符串						|
 		*| pwd:				|	密码						|	空字符串						|
 		*| headers:			|	请求头属性					|	{}								|
+		*| charset:			|	默认编码					|	UTF-8							|
 		*| data:			|	发送的数据					|	空字符串						|
 		*| timeout:			|	设置请求超时的时间（ms）	|	30000							|
+		*| jsonp:			|	jsonp的参数名				|	cb								|	
 		*| onsucceed:		|	请求成功监控 (成功指：200-300以及304)							|
 		*| onerror:			|	请求失败监控													|
 		*| oncancel:		|	请求取消监控													|
 		*| oncomplete:		|	请求结束监控 (success与error都算complete)						|
-		*| charset:			|	默认编码					|	UTF-8							|
-		*| jsonp:			|	jsonp的参数名				|	cb								|
 		*----------------------------------------------------------------------------------------
 	* @return {Ajax} 
 	*/
